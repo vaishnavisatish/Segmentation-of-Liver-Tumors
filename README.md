@@ -1,4 +1,4 @@
-Segmentation for Classification
+# Segmentation of liver tumors
 
 The Segmentation model has an encoder-decoder structure that performs segmentation of the tumors in the 3D scan data. The classifier model receives the segmentations as the input to classify the presence of a tumor in the liver. 
 
