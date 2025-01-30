@@ -1,6 +1,9 @@
 Segmentation for Classification
 
+The Segmentation model has an encoder-decoder structure that performs segmentation of the tumors in the 3D scan data. The classifier model receives the segmentations as the input to classify the presence of a tumor in the liver. 
+
 Link to the dataset:- https://www.kaggle.com/datasets/andrewmvd/liver-tumor-segmentation
+
 There are two parts of the dataset. Download them and concatenate all the volumes into one folder. 
 Change the path to the dataset in the 'dataset_root' variable
 
